@@ -71,6 +71,7 @@ const NotePage = () => {
         )}
       </div>
       <div className="note-body">
+  <h1>hi i change here</h1>
         <textarea onChange={(e) => {setNote({...note, 'body':e.target.value})}} value={note.body}>  
         </textarea>
       </div>
